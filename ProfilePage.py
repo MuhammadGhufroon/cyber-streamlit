@@ -7,5 +7,4 @@ with open('style.css') as f:
 with open('index.html') as g:
     st.markdown(f'<text>{g.read()}</text>', unsafe_allow_html=True)
 
-
 st.sidebar.markdown("Profile Page❄️")
